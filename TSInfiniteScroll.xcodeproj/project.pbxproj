@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002214EA15513B4800306BFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002214E915513B4800306BFD /* UIKit.framework */; };
+		002214EC15513B4800306BFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002214EB15513B4800306BFD /* Foundation.framework */; };
+		002214EE15513B4800306BFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002214ED15513B4800306BFD /* CoreGraphics.framework */; };
+		002214F415513B4800306BFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 002214F215513B4800306BFD /* InfoPlist.strings */; };
+		002214F615513B4800306BFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 002214F515513B4800306BFD /* main.m */; };
+		002214FA15513B4800306BFD /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 002214F915513B4800306BFD /* TSAppDelegate.m */; };
+		002214FD15513B4800306BFD /* TSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002214FC15513B4800306BFD /* TSViewController.m */; };
+		0022150915513B8B00306BFD /* TSInfiniteScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0022150815513B8B00306BFD /* TSInfiniteScrollViewController.m */; };
+		0022150C15513BA200306BFD /* TSInfiniteScrollViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0022150B15513BA200306BFD /* TSInfiniteScrollViewRow.m */; };
+		0022150F15513BBA00306BFD /* TSInfiniteScrollItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0022150E15513BBA00306BFD /* TSInfiniteScrollItemViewController.m */; };
+		0022151215513D1000306BFD /* UIScrollView+Paging.m in Sources */ = {isa = PBXBuildFile; fileRef = 0022151115513D1000306BFD /* UIScrollView+Paging.m */; };
+		00221515155141C000306BFD /* TSInfiniteScrollViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 00221514155141C000306BFD /* TSInfiniteScrollViewItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		002214E515513B4800306BFD /* TSInfiniteScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSInfiniteScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		002214E915513B4800306BFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		002214EB15513B4800306BFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		002214ED15513B4800306BFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		002214F115513B4800306BFD /* TSInfiniteScroll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TSInfiniteScroll-Info.plist"; sourceTree = "<group>"; };
+		002214F315513B4800306BFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		002214F515513B4800306BFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		002214F715513B4800306BFD /* TSInfiniteScroll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSInfiniteScroll-Prefix.pch"; sourceTree = "<group>"; };
+		002214F815513B4800306BFD /* TSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
+		002214F915513B4800306BFD /* TSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
+		002214FB15513B4800306BFD /* TSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
+		002214FC15513B4800306BFD /* TSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
+		0022150715513B8B00306BFD /* TSInfiniteScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSInfiniteScrollViewController.h; sourceTree = "<group>"; };
+		0022150815513B8B00306BFD /* TSInfiniteScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSInfiniteScrollViewController.m; sourceTree = "<group>"; };
+		0022150A15513BA200306BFD /* TSInfiniteScrollViewRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSInfiniteScrollViewRow.h; sourceTree = "<group>"; };
+		0022150B15513BA200306BFD /* TSInfiniteScrollViewRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSInfiniteScrollViewRow.m; sourceTree = "<group>"; };
+		0022150D15513BBA00306BFD /* TSInfiniteScrollItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSInfiniteScrollItemViewController.h; sourceTree = "<group>"; };
+		0022150E15513BBA00306BFD /* TSInfiniteScrollItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSInfiniteScrollItemViewController.m; sourceTree = "<group>"; };
+		0022151015513D1000306BFD /* UIScrollView+Paging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Paging.h"; sourceTree = "<group>"; };
+		0022151115513D1000306BFD /* UIScrollView+Paging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Paging.m"; sourceTree = "<group>"; };
+		00221513155141BF00306BFD /* TSInfiniteScrollViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSInfiniteScrollViewItem.h; sourceTree = "<group>"; };
+		00221514155141C000306BFD /* TSInfiniteScrollViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSInfiniteScrollViewItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		002214E215513B4800306BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002214EA15513B4800306BFD /* UIKit.framework in Frameworks */,
+				002214EC15513B4800306BFD /* Foundation.framework in Frameworks */,
+				002214EE15513B4800306BFD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002214DA15513B4800306BFD = {
+			isa = PBXGroup;
+			children = (
+				002214EF15513B4800306BFD /* TSInfiniteScroll */,
+				002214E815513B4800306BFD /* Frameworks */,
+				002214E615513B4800306BFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		002214E615513B4800306BFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				002214E515513B4800306BFD /* TSInfiniteScroll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		002214E815513B4800306BFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				002214E915513B4800306BFD /* UIKit.framework */,
+				002214EB15513B4800306BFD /* Foundation.framework */,
+				002214ED15513B4800306BFD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		002214EF15513B4800306BFD /* TSInfiniteScroll */ = {
+			isa = PBXGroup;
+			children = (
+				0022150615513B4F00306BFD /* TSInfiniteScroll */,
+				002214F815513B4800306BFD /* TSAppDelegate.h */,
+				002214F915513B4800306BFD /* TSAppDelegate.m */,
+				002214FB15513B4800306BFD /* TSViewController.h */,
+				002214FC15513B4800306BFD /* TSViewController.m */,
+				002214F015513B4800306BFD /* Supporting Files */,
+			);
+			path = TSInfiniteScroll;
+			sourceTree = "<group>";
+		};
+		002214F015513B4800306BFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				002214F115513B4800306BFD /* TSInfiniteScroll-Info.plist */,
+				002214F215513B4800306BFD /* InfoPlist.strings */,
+				002214F515513B4800306BFD /* main.m */,
+				002214F715513B4800306BFD /* TSInfiniteScroll-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0022150615513B4F00306BFD /* TSInfiniteScroll */ = {
+			isa = PBXGroup;
+			children = (
+				0022150715513B8B00306BFD /* TSInfiniteScrollViewController.h */,
+				0022150815513B8B00306BFD /* TSInfiniteScrollViewController.m */,
+				0022150A15513BA200306BFD /* TSInfiniteScrollViewRow.h */,
+				0022150B15513BA200306BFD /* TSInfiniteScrollViewRow.m */,
+				0022150D15513BBA00306BFD /* TSInfiniteScrollItemViewController.h */,
+				0022150E15513BBA00306BFD /* TSInfiniteScrollItemViewController.m */,
+				00221513155141BF00306BFD /* TSInfiniteScrollViewItem.h */,
+				00221514155141C000306BFD /* TSInfiniteScrollViewItem.m */,
+				0022151015513D1000306BFD /* UIScrollView+Paging.h */,
+				0022151115513D1000306BFD /* UIScrollView+Paging.m */,
+			);
+			path = TSInfiniteScroll;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		002214E415513B4800306BFD /* TSInfiniteScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0022150315513B4800306BFD /* Build configuration list for PBXNativeTarget "TSInfiniteScroll" */;
+			buildPhases = (
+				002214E115513B4800306BFD /* Sources */,
+				002214E215513B4800306BFD /* Frameworks */,
+				002214E315513B4800306BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSInfiniteScroll;
+			productName = TSInfiniteScroll;
+			productReference = 002214E515513B4800306BFD /* TSInfiniteScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		002214DC15513B4800306BFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Touchwonders B.V.";
+			};
+			buildConfigurationList = 002214DF15513B4800306BFD /* Build configuration list for PBXProject "TSInfiniteScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 002214DA15513B4800306BFD;
+			productRefGroup = 002214E615513B4800306BFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				002214E415513B4800306BFD /* TSInfiniteScroll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		002214E315513B4800306BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002214F415513B4800306BFD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002214E115513B4800306BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002214F615513B4800306BFD /* main.m in Sources */,
+				002214FA15513B4800306BFD /* TSAppDelegate.m in Sources */,
+				002214FD15513B4800306BFD /* TSViewController.m in Sources */,
+				0022150915513B8B00306BFD /* TSInfiniteScrollViewController.m in Sources */,
+				0022150C15513BA200306BFD /* TSInfiniteScrollViewRow.m in Sources */,
+				0022150F15513BBA00306BFD /* TSInfiniteScrollItemViewController.m in Sources */,
+				0022151215513D1000306BFD /* UIScrollView+Paging.m in Sources */,
+				00221515155141C000306BFD /* TSInfiniteScrollViewItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		002214F215513B4800306BFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002214F315513B4800306BFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0022150115513B4800306BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0022150215513B4800306BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0022150415513B4800306BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSInfiniteScroll/TSInfiniteScroll-Prefix.pch";
+				INFOPLIST_FILE = "TSInfiniteScroll/TSInfiniteScroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0022150515513B4800306BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSInfiniteScroll/TSInfiniteScroll-Prefix.pch";
+				INFOPLIST_FILE = "TSInfiniteScroll/TSInfiniteScroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002214DF15513B4800306BFD /* Build configuration list for PBXProject "TSInfiniteScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0022150115513B4800306BFD /* Debug */,
+				0022150215513B4800306BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0022150315513B4800306BFD /* Build configuration list for PBXNativeTarget "TSInfiniteScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0022150415513B4800306BFD /* Debug */,
+				0022150515513B4800306BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 002214DC15513B4800306BFD /* Project object */;
+}
